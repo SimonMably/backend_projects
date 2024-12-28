@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "description": "an updated task",
+        "status": "done",
+        "created_at": "24/12/2024 09:26 PM ",
+        "updated_at": "26/12/2024 07:49 PM "
+    },
+    {
+        "id": 2,
+        "description": "Create presentation by 3rd January 2025",
+        "status": "todo",
+        "created_at": "25/12/2024 09:54 PM ",
+        "updated_at": "25/12/2024 09:54 PM "
+    },
+    {
+        "id": 3,
+        "description": "Buy fruits for the week",
+        "status": "done",
+        "created_at": "25/12/2024 10:00 PM ",
+        "updated_at": "25/12/2024 10:00 PM "
+    }
+]
