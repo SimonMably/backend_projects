@@ -1,6 +1,5 @@
 import random
-
-# TODO: Add a win counter
+import time
 
 
 def get_number():
@@ -40,25 +39,30 @@ def main():
         number = get_number()
 
         attempts = 0
+        start_timer = time.perf_counter()
 
         while chances > 0:
+
             try:
-                guess = int(float(input("Enter your guess: ")))
+                guess = int(float(input("\nEnter your guess: ")))
             except ValueError:
                 print("That's not a number. Try again")
 
             attempts += 1
 
             if guess == number:
+                end_timer = time.perf_counter()
+                total_time = end_timer - start_timer
                 print(
-                    f"Congratulations! you guessed the correct number in {attempts} attempts.\n"
+                    f"Congratulations! you guessed the correct number in {attempts} attempts and in {total_time:.2f} Seconds.\n"
                 )
+
                 break
             else:
                 chances -= 1
                 if guess > 100 or guess < 1:
                     print(
-                        "Your guess is out of bounds. The number is between 0 and 100."
+                        "Your guess is out of bounds. The number is between (and includes) 1 and 100."
                     )
                 elif guess > number:
                     print(f"The number is less than {guess}")
