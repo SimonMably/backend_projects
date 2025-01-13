@@ -10,3 +10,5 @@ Each difficulty setting will give the player a different amount of chances:
 Once the difficulty has been chosen, the player will be prompted to guess the number until the player has either used all of their chances or correctly guessed the number.
 
 Once the round has either been lost or won, the player will be promted to choose to play a new game or not.
+
+Project inspired by [roadmaps.sh/projects/number-guessing-game](https://roadmap.sh/projects/number-guessing-game)
