@@ -11,4 +11,4 @@ Once the difficulty has been chosen, the player will be prompted to guess the nu
 
 Once the round has either been lost or won, the player will be promted to choose to play a new game or not.
 
-Project inspired by [https://roadmaps.sh/projects/number-guessing-game](https://roadmap.sh/projects/number-guessing-game)
+Project inspired by [https://roadmap.sh/projects/number-guessing-game](https://roadmap.sh/projects/number-guessing-game)
